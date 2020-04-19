@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Tammudu+2:400,500,700&display=swap");
+@import "vars";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Baloo Tammudu 2";
+  background: rgb(30, 30, 30);
+  color: $text-color;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  height: $nav-height;
+  width: 100%;
+  padding: 0 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    font-size: 1.4rem;
+    span {
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+  }
+}
